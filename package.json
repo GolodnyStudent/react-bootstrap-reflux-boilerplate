@@ -1,0 +1,23 @@
+{
+  "name": "react-bootstrap-reflux-webpack-boilerplate",
+  "version": "0.0.0",
+  "description": "test",
+  "main": "app/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build/",
+    "deploy": "NODE_ENV=production webpack -p"
+  },
+  "author": "Evgeny Sorokin",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.9.0",
+    "jsx-loader": "^0.12.2",
+    "style-loader": "^0.8.2",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.4.13",
+    "webpack-dev-server": "^1.6.6",
+    "node-sass": "~2.1.1",
+    "sass-loader": "~0.6.0"
+  },
+  "dependencies": {}
+}
